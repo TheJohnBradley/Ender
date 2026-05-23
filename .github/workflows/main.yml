@@ -1,5 +1,9 @@
 name: Convert Scripts to Bookmarklets
 on: push
+
+permissions:
+  contents: write
+
 jobs:
   bookmarkletify:
     runs-on: ubuntu-latest
